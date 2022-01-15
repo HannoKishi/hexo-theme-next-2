@@ -250,7 +250,7 @@ read_more_btn: true
 
 # Post meta display settings
 post_meta:
-  item_text: false
+  item_text: true
   created_at: true
   updated_at:
     enable: true
@@ -263,6 +263,9 @@ symbols_count_time:
   separated_meta: true
   item_text_post: true
   item_text_total: true
+  awl: 2
+  wpm: 275
+
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
