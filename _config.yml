@@ -161,13 +161,22 @@ sidebar:
   onmobile: false
 
 # Sidebar Avatar
-avatar:
-  # Replace the default image and set the url here.
-  url: #/images/avatar.gif
-  # If true, the avatar will be dispalyed in circle.
-  rounded: false
-  # If true, the avatar will be rotated with the cursor.
-  rotated: false
+# avatar:
+#   # Replace the default image and set the url here.
+#   url: #/images/avatar.gif
+#   # If true, the avatar will be dispalyed in circle.
+#   rounded: false
+#   # If true, the avatar will be rotated with the cursor.
+#   rotated: false
+avatar: 
+  # 设置头像资源的位置
+  url: /images/avatar.png
+  # 开启圆形头像
+  rounded: true
+  # 不透明的比例：0就是完全透明
+  opacity: 0.9
+  # 不开启旋转
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
