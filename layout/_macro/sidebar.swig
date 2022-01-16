@@ -44,6 +44,11 @@
         </div>
       {%- endif %}
 
+      <!--网易云播放器-->
+      <div id="music163player">
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=86 src="//music.163.com/outchain/player?type=2&id=1331357732&auto=1&height=66">
+          </iframe>
+      </div>
     </div>
   </aside>
   <div id="sidebar-dimmer"></div>
